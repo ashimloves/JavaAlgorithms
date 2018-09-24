@@ -4,6 +4,7 @@ import com.deepspider.algo.sort.Bubble;
 import com.deepspider.algo.sort.Insertion;
 import com.deepspider.algo.sort.Selection;
 import com.deepspider.datastructure.collections.ArrayListTest;
+import com.deepspider.datastructure.collections.LinkedListTest;
 
 import java.util.Arrays;
 
@@ -25,6 +26,8 @@ public class Main {
         System.out.println("Insertion sort : "+ Arrays.toString(i.sort(arr3)));
 
 
-        ArrayListTest.processAll();
+        //ArrayListTest.processAll();
+
+        LinkedListTest.processAll();
     }
 }
