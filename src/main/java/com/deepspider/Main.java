@@ -1,8 +1,9 @@
-package com.deepspider.algo;
+package com.deepspider;
 
 import com.deepspider.algo.sort.Bubble;
 import com.deepspider.algo.sort.Insertion;
 import com.deepspider.algo.sort.Selection;
+import com.deepspider.datastructure.collections.ArrayListTest;
 
 import java.util.Arrays;
 
@@ -22,5 +23,8 @@ public class Main {
         System.out.println("Sorting : "+ Arrays.toString(arr3));
         Insertion i = new Insertion();
         System.out.println("Insertion sort : "+ Arrays.toString(i.sort(arr3)));
+
+
+        ArrayListTest.processAll();
     }
 }
